@@ -49,7 +49,7 @@ jobs:
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install hxcpp-debug-server
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
-          lime rebuild extension-webm linux
+          haxelib run lime rebuild extension-webm linux
           haxelib install polymod
           haxelib install newgrounds
           haxelib list
@@ -93,7 +93,7 @@ jobs:
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install hxcpp-debug-server
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
-          lime rebuild extension-webm windows
+          haxelib run lime rebuild extension-webm windows
           haxelib install polymod
           haxelib install newgrounds
           haxelib list
@@ -138,7 +138,7 @@ jobs:
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install hxcpp-debug-server
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
-          lime rebuild extension-webm mac
+          haxelib run lime rebuild extension-webm mac
           haxelib install polymod
           haxelib install newgrounds
           haxelib list
