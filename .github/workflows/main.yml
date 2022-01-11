@@ -51,6 +51,7 @@ jobs:
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
           lime rebuild extension-webm linux
           haxelib install polymod
+          haxelib install newgrounds
           haxelib list
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
@@ -94,6 +95,7 @@ jobs:
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
           lime rebuild extension-webm windows
           haxelib install polymod
+          haxelib install newgrounds
           haxelib list
         shell: cmd
       - name: Create Version Tag
@@ -138,6 +140,7 @@ jobs:
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
           lime rebuild extension-webm mac
           haxelib install polymod
+          haxelib install newgrounds
           haxelib list
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
