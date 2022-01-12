@@ -34,9 +34,9 @@
 
 	<!-- _____________________________ Path Settings ____________________________ -->
 
-	<set name="BUILD_DIR" value="exportCW/debug" if="debug" />
-	<set name="BUILD_DIR" value="exportCW/release" unless="debug" />
-	<set name="BUILD_DIR" value="exportCW/32bit" if="32bit" />
+	<set name="BUILD_DIR" value="export/debug" if="debug" />
+	<set name="BUILD_DIR" value="export/release" unless="debug" />
+	<set name="BUILD_DIR" value="export/32bit" if="32bit" />
 
 	<classpath name="source_cw" />
 
